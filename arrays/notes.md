@@ -4,6 +4,8 @@
 * Arrays start at 0 (called zero index)
   * The last piece of data in an array is always n-1 because of the zero index
 * _insertion_ - adding an additional value to an array. Not replacing. 
+* linked lists are better for front insertions, and arrays are better for back insertions
+* We sacrifice time for memory, which is more useful in larger data sets.
 
 - Fixed Array Runtimes
   - **_inserting into an array at a random position_** - O(n) or linear time
